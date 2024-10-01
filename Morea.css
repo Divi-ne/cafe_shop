@@ -1,0 +1,57 @@
+*{
+padding: 0px;
+margin: 0px;
+}
+body{
+    background-image: linear-gradient(to right,
+    rgb(217, 232, 255),
+     rgb(43, 118, 231));;
+}
+
+button {
+    width: 300px;
+    color: black;
+    font-size: 20px;
+    padding: 10px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.affirmation{
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+    margin-top: 80px;
+    margin-left: 40px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+    .head {
+        margin-top: 20px;
+        text-align: center;
+        font-family:cursive;
+        font-size: 80px;
+        color: #333;
+    }
+    .back-arrow {
+        position: absolute;
+        top: 30px;
+        left: 20px;
+        font-size: 50px;
+        color:black;
+
+    }
+    @media screen and (max-width: 768px){
+        .head {
+            font-size: 30px;
+        }
+    }

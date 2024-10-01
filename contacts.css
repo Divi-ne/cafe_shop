@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+background-image: url(Images/img4background.jpeg);
+  }
+
+.contact-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  height: 450px;
+  padding: 25px;
+  box-sizing: border-box;
+}
+.contact-card h2 {
+  font-size: 30px;
+  margin: 0;
+}
+
+.content {
+  margin-top: 20px;
+  font-size: 25px;
+}
+.content p {
+  margin: 10px 0;
+  line-height: 1.5;
+}
+.contact-info {
+    max-width: 400px;
+    margin: 0 auto;
+}
+.email-link {
+    text-decoration: none;
+    color: inherit;
+  }
+.contact-label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #666;
+}
+.back-arrow {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-size: 50px;
+    color:black
+
+}
